@@ -1,0 +1,11 @@
+module.exports = {
+// every 4 hours
+'0 */4 * * *': async () => {
+try {
+await strapi.service('api::metric.adapter').fetchGoogleAds();
+await strapi.service('api::metric.adapter').fetchMetaAds();
+} catch (err) {
+strapi.log.error('Cron sync error', err);
+}
+},
+}
