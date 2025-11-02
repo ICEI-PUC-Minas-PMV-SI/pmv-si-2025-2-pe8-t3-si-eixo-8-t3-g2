@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "campaigns",
+  "info": {
+    "singularName": "campaign",
+    "pluralName": "campaigns",
+    "displayName": "Campaign"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "platform": {
+      "type": "enumeration",
+      "enum": [
+        "google",
+        "meta"
+      ]
+    },
+    "accountId": {
+      "type": "string"
+    },
+    "externalId": {
+      "type": "string",
+      "unique": false
+    },
+    "status": {
+      "type": "string"
+    },
+    "objective": {
+      "type": "string"
+    },
+    "adAccount": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::ad-account.ad-account"
+    },
+    "performances": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::performance.performance"
+    }
+  }
+}

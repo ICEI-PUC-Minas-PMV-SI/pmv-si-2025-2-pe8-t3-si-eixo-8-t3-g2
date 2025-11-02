@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ad-accounts",
+  "info": { 
+    "singularName": "ad-account",
+    "pluralName": "ad-accounts",
+    "displayName": "Ad Account"
+   },
+  "attributes": {
+    "name": { "type": "string" },
+    "platform": { "type": "enumeration", "enum": ["google", "meta"] },
+    "client": { "type": "relation", "relation": "manyToOne", "target": "api::client.client" },
+    "clientId": { "type": "string" },
+    "clientSecret": { "type": "string" },
+    "refreshToken": { "type": "string" },
+    "accessToken": { "type": "string" },
+    "developerToken": { "type": "string" },
+    "accountId": { "type": "string" },
+    "active": { "type": "boolean", "default": true }
+  }
+}

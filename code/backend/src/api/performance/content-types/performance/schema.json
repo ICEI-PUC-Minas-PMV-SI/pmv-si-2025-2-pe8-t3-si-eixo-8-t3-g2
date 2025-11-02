@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "performances",
+  "info": {
+    "displayName": "Performance",
+    "singularName": "performance",
+    "pluralName": "performances"
+  },
+  "attributes": {
+    "date": { "type": "date" },
+    "reach": { "type": "integer" },
+    "impressions": { "type": "integer" },
+    "clicks": { "type": "integer" },
+    "engagements": { "type": "integer" },
+    "followersGained": { "type": "integer" },
+    "leads": { "type": "integer" },
+    "spend": { "type": "decimal" },
+    "campaign": { "type": "relation", "relation": "manyToOne", "target": "api::campaign.campaign" }
+  }
+}

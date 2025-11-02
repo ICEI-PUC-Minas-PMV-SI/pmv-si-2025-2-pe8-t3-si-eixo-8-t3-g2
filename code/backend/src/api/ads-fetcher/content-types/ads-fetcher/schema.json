@@ -1,0 +1,13 @@
+{
+  "kind": "singleType",
+  "collectionName": "ads-fetcher",
+  "info": {
+    "displayName": "Ads Fetcher",
+    "singularName": "ads-fetcher",
+    "pluralName": "ads-fetchers"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {}
+}

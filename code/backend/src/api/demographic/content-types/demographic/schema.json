@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "demographics",
+  "info": {
+    "displayName": "Demographic",
+    "singularName": "demographic",
+    "pluralName": "demographics"
+  },
+  "attributes": {
+    "ageRange": { "type": "string" },
+    "gender": { "type": "enumeration", "enum": ["male", "female", "unknown"] },
+    "reach": { "type": "integer" },
+    "impressions": { "type": "integer" },
+    "campaign": { "type": "relation", "relation": "manyToOne", "target": "api::campaign.campaign" },
+    "date": { "type": "date" }
+  }
+}
