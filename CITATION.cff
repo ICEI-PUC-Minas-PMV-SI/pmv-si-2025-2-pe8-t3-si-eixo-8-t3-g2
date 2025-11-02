@@ -8,26 +8,30 @@ message: >-
   Web da PUC Minas.
 type: software
 authors:
-  - given-names: Aluno 1
-    family-names: Nome Completo
-    email: aluno@pucminas.br
-    affiliation: PUC Minas
-  - given-names: Hugo
-    name-particle: 'B '
-    family-names: de Paula
-    name-suffix: Prof.
-    email: hugo@pucminas.br
+ authors:
+  - family-names: Silva
+    given-names: Alan Ferreira da 
+  - family-names: Lopes
+    given-names: Amanda Andrade
+  - family-names: Nieves
+    given-names: Angelica Sofia 
+  - family-names: Rodrigues
+    given-names: Estêvão Moura
+  - family-names: Marques
+    given-names: Kelly 
+  - family-names: Dias
+    given-names: Yael Joaquim Nobre
+  - name-suffix: Professora Simone Fernandes Queiroz
     affiliation: PUC Minas
     orcid: 'https://orcid.org/0000-0002-6193-3205'
 repository-code: >-
-  https://github.com/ICEI-PUC-Minas-PMV-SI/WebApplicationProject-Template
+  https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-2-pe8-t3-si-eixo-8-t3-g2
 abstract: >-
-  Descrever resumidamente, em um ou dois parágrafos, o
-  projeto que foi desenvolvido.
+ This project aims to analyze and optimize the processes of Classe A Company, a digital marketing firm based in Montes Claros, Brazil. The company offers integrated solutions to strengthen the online presence of local businesses but faces fragmented information and workflow inefficiencies due to the use of multiple external tools. To address these challenges, the project proposes the development of a scalable web platform that centralizes data, reports, and services, enhancing operational efficiency, integration, and scalability across the organization.
 keywords:
   - Desenvolvimento Web
   - HTML
   - CSS
   - JavaScript
   - Template
-date-released: '2024-06-23'
+date-released: '2025-11-02'

@@ -1,24 +1,39 @@
-# Título do Projeto
+# CLASSE A COMPANY - DASHBOARD
 
 `CURSO: Sistemas de Informação`
 
-`DISCIPLINA: Projeto - Trabalho de Conclusão de Curso`
+`DISCIPLINA: Projeto - Projeto de Conclusão de Curso`
 
 `SEMESTRE: 8º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto tem como objetivo analisar e otimizar os processos da Classe A Company, empresa de marketing digital de Montes Claros (MG), que atua com soluções integradas para fortalecimento da presença online de negócios locais. Apesar do crescimento, a empresa enfrenta problemas de fragmentação de informações e dependência de múltiplas ferramentas. Como solução, propõe-se o desenvolvimento de uma plataforma web escalável que centralize dados, relatórios e serviços, promovendo maior eficiência, integração e escalabilidade operacional.
+
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
-* Nome completo do aluno 6
+* Alan Ferreira da Silva 
+* Amanda Andrade Lopes 
+* Angelica Sofia Nieves 
+* Estevão Moura Rodrigues 
+* Kelly Marques
+* Yael Joaquim Nobre Dias 
+
+## Orientadora
+
+* Simone Fernandes Queiroz
+
+# Planejamento
+
+| Etapa         | Atividades |
+|  :----:   | ----------- |
+| ETAPA 1         |[Definição da organização e estudo do negócio e seu mercado](docs/contexto.md) <br> |
+| ETAPA 2         |[Plano de Inteligência Competitiva (IC)](docs/contexto.md) <br> |
+| ETAPA 3         |[Desenvolvimento de alternativas de soluções de SI](docs/contexto.md) |
+| ETAPA 4        |[Planejamento Estratégico de TI](docs/contexto.md) <br>  |
+| ETAPA 5         | [Avaliação e Gestão Contínua de TI](docs/contexto.md) |
 
 
-## Orientador
+# Código
 
-* Nome completo do professor 1
+<li><a href="code/README.md"> Código Fonte</a></li>
 
